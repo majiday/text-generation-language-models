@@ -1,6 +1,3 @@
-# Creating the updated README.md file content with explanations for all models
-
-readme_content = """
 # Text Generation using Various Models
 
 This repository contains scripts that implement text generation models using different architectures including Transformer with RNN, GRU, Bigram, and Trigram models. These models are trained on a given text corpus and can generate text based on a provided start sequence.
