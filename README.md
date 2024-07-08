@@ -1,22 +1,35 @@
-# Text Generation Language Models
+# Creating the README.md file content for the given explanation and instructions
 
-## Project Overview
-This repository contains the implementation of various text generation models using language modeling techniques. The models are designed to generate text based on a given input sequence, demonstrating the capabilities of modern natural language processing.
+readme_content = """
+# Text Generation using Transformer and RNN
 
-## Features
-- Implementation of Model X
-- Examples of generated texts
-- Performance metrics comparison between models
+This repository contains a script that implements a text generation model using a combination of a Transformer encoder and an RNN. The model is trained on a given text corpus and can generate text based on a provided start sequence.
 
-## Requirements
-To run this project, you need the following installed:
-- Python 3.x
-- TensorFlow 2.x
-- numpy
-- other dependencies listed in `requirements.txt`
+## Key Components
 
-## Installation
-Clone this repository to your local machine:
-```bash
-git clone https://github.com/majiday/text-generation-language-models.git
-cd text-generation-language-models
+1. **Imports and Dependencies**:
+   - The script uses libraries like `spaCy` for tokenization, `numpy` for array manipulations, and `torch` for building and training the model.
+
+2. **Data Preparation**:
+   - The text data is loaded from `input.txt`, cleaned, and tokenized using `spaCy`.
+   - Sequences of tokens and their corresponding next words are created and converted to integer IDs.
+
+3. **Model Architecture**:
+   - `TransformerRNNModel`: Combines a Transformer encoder with an RNN to process token sequences and predict the next token.
+   - The model includes an embedding layer, a Transformer encoder layer, an RNN layer, and a fully connected layer.
+
+4. **Training Setup**:
+   - Sequences and labels are converted to PyTorch tensors and loaded into a `DataLoader` for batch processing.
+   - The training loop iterates over epochs, updating the model's parameters to minimize the loss.
+
+5. **Text Generation**:
+   - `generate_text` function: Generates text by predicting the next token based on the provided start sequence.
+   - Uses top-k sampling to control the diversity of the generated text.
+
+## Running the Code
+
+1. **Install Dependencies**:
+   Ensure you have the required libraries installed. You can use pip to install them:
+   ```bash
+   pip install spacy torch numpy requests
+   python -m spacy download en_core_web_sm
