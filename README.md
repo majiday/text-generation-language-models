@@ -1,6 +1,3 @@
-# Creating the README.md file content for the given explanation and instructions
-
-readme_content = """
 # Text Generation using Transformer and RNN
 
 This repository contains a script that implements a text generation model using a combination of a Transformer encoder and an RNN. The model is trained on a given text corpus and can generate text based on a provided start sequence.
