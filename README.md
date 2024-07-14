@@ -120,6 +120,8 @@ generated_text = generate_text("Alice", bigram_model, num_words=50, threshold=0.
 print(generated_text)
 ```
 
+#### sample ouput
+
 #### Example Usage for Trigram Model
 
 ```python
@@ -127,9 +129,12 @@ start_words = "Alice was"
 generated_text = generate_text(start_words, trigram_model, num_words=50)
 print(generated_text)
 ```
-
-This will output a sequence of generated text starting with the given start text.
-
+#### sample output
+```python
+"""Alice was a sound of many footsteps , and the procession came opposite to Alice ; “ and most things
+twinkled after that into a graceful zigzag , and the other end of half those long words , ” said
+the March Hare had just begun “ Well ! I"""
+```
 ---
 
 By following the above instructions, you can train and generate text using various models implemented in this repository.
