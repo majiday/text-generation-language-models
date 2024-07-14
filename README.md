@@ -113,20 +113,6 @@ yours awfully serpents jurymen consented promised breath London Do Ugh except As
 banks hurt edge exclamation At writing If roof muttering were picture soup dainties London opposite Race shelves messages off tinkling Give teacups plenty birds Où seaside"""
 ```
 
-#### Example Usage for Bigram Model
-
-```python
-generated_text = generate_text("Alice", bigram_model, num_words=50, threshold=0.01)
-print(generated_text)
-```
-
-#### sample ouput
-```python
-"""Alice : “ And yesterday things between whiles . “ _ very glad to be lost something , it ’s all . The Gryphon .
-“ I ca n’t see , and then treading on , ” cried the Dormouse shall sit down !
- ” cried Alice , but her"""
-```
-
 #### Example Usage for Trigram Model
 
 ```python
@@ -139,6 +125,20 @@ print(generated_text)
 """Alice was a sound of many footsteps , and the procession came opposite to Alice ; “ and most things
 twinkled after that into a graceful zigzag , and the other end of half those long words , ” said
 the March Hare had just begun “ Well ! I"""
+```
+
+#### Example Usage for Bigram Model
+
+```python
+generated_text = generate_text("Alice", bigram_model, num_words=50, threshold=0.01)
+print(generated_text)
+```
+
+#### sample ouput
+```python
+"""Alice : “ And yesterday things between whiles . “ _ very glad to be lost something , it ’s all . The Gryphon .
+“ I ca n’t see , and then treading on , ” cried the Dormouse shall sit down !
+ ” cried Alice , but her"""
 ```
 ---
 
