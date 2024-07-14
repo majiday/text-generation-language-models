@@ -195,5 +195,8 @@ print(start_text + " " + generated_text)
 
 
 # output example
-"Alice was walking by his shoulder that it ’ll understand of them were lying on their tails in another moment on their tails in their tails down the Dodo away ! It ’s cook threw themselves flat , and washing_—extra , And they all over . Alice noticed , because she made of course , and began staring came skimming out of course , so many large replied . The Lobster Quadrille , when they were all sorts of course , in fact , that had come on which way , that savage when I ’ve seen her head downwards , and shoes"
+"""Alice was walking by his shoulder that it ’ll understand of them were lying on their tails in another moment on their tails in their tails down the Dodo away !
+It ’s cook threw themselves flat , and washing_—extra , And they all over . Alice noticed , because she made of course , and began staring came skimming out of course ,
+so many large replied . The Lobster Quadrille , when they were all sorts of course , in fact , that had come on which way , that savage when I ’ve seen her head downwards , 
+and shoes"""
 
