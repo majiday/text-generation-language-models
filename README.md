@@ -121,6 +121,11 @@ print(generated_text)
 ```
 
 #### sample ouput
+```python
+"""Alice : “ And yesterday things between whiles . “ _ very glad to be lost something , it ’s all . The Gryphon .
+“ I ca n’t see , and then treading on , ” cried the Dormouse shall sit down !
+ ” cried Alice , but her"""
+```
 
 #### Example Usage for Trigram Model
 
