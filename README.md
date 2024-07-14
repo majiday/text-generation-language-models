@@ -20,7 +20,7 @@ This repository contains scripts that implement text generation models using dif
 
 Combines a Transformer encoder with an RNN to process token sequences and predict the next token. Includes an embedding layer, a Transformer encoder layer, an RNN layer, and a fully connected layer.
 
-#### GRU Model (run_gru.py)
+#### GRU Model (rnn_gru.py)
 
 Uses a GRU (Gated Recurrent Unit) layer for sequence processing. Includes an embedding layer, a GRU layer, and a dense output layer with softmax activation.
 
