@@ -60,7 +60,7 @@ python transformer.py
 #### GRU Model
 
 ```bash
-python run_gru.py
+python rnn_gru.py
 ```
 
 #### Bigram Model
