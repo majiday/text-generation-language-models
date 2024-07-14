@@ -90,6 +90,13 @@ device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 generated_text = generate_text(model, start_text, num_generate, token_to_id, id_to_token, vocab_size, device, temperature=0.8, top_k=40)
 print(start_text + " " + generated_text)
 ```
+# sample output
+```python
+"""Alice was walking by his shoulder that it ’ll understand of them were lying on their tails in another moment on their tails in their tails down the Dodo away !
+It ’s cook threw themselves flat , and washing_—extra , And they all over . Alice noticed , because she made of course , and began staring came skimming out of course ,
+so many large replied . The Lobster Quadrille , when they were all sorts of course , in fact , that had come on which way , that savage when I ’ve seen her head downwards , 
+and shoes"""
+```
 
 #### Example Usage for GRU Model
 
