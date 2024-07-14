@@ -90,7 +90,7 @@ device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 generated_text = generate_text(model, start_text, num_generate, token_to_id, id_to_token, vocab_size, device, temperature=0.8, top_k=40)
 print(start_text + " " + generated_text)
 ```
-# sample output
+#### sample output
 ```python
 """Alice was walking by his shoulder that it ’ll understand of them were lying on their tails in another moment on their tails in their tails down the Dodo away !
 It ’s cook threw themselves flat , and washing_—extra , And they all over . Alice noticed , because she made of course , and began staring came skimming out of course ,
@@ -103,6 +103,11 @@ and shoes"""
 ```python
 start_string = "Alice was beginning"
 print(generate_text_rnn(model, start_string))
+```
+
+#### sample output
+```python
+"""Alice was beginning saying giving nest dreadful knuckles chin howled shrieks shiver See myself denied remember dispute chance Sixteenth mine IX oblong Let But waistcoat spirited modern pleased vinegar whom sides It roses IV last whatever lovely peeped doorway stupidest respectful face royal happened rabbit by growling deserved sort rapped W. yours awfully serpents jurymen consented promised breath London Do Ugh except As silent butterfly rose themselves cheated III guilt tight VI seems unlocking Read course worry banks hurt edge exclamation At writing If roof muttering were picture soup dainties London opposite Race shelves messages off tinkling Give teacups plenty birds Où seaside"""
 ```
 
 #### Example Usage for Bigram Model
